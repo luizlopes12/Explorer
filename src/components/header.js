@@ -7,12 +7,13 @@ let Header = () =>{
         <Fragment>
         <div className='home-background'>
         </div>
-        <header className='container'>
-            <div className='row pt-4'>
-                <div className='col'>
+        <header className='container-fluid'>
+            <div className='row pt-4 d-flex justify-content-between'>
+                <div className='col-1 d-flex justify-content-center align-items-center p-3'>
                     <img src={logo}/>
                 </div>
-                <div className='col'>
+                
+                <div className='col-6 navbar'>
                     
                 </div>
             </div>
